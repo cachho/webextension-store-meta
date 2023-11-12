@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import path from 'path';
-import { fetchText } from '../lib/fetch-text.js';
+import fetchText from '../lib/fetch-text.js';
 import ProgressBars from './progress-bars.js';
 import HttpsProxyAgent from 'https-proxy-agent';
 import yargs from 'yargs';
